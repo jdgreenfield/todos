@@ -1,4 +1,6 @@
 body{
+	background-color: #d3d3d3;
+	font-family: 'helvetica neue'
 
 }
 
@@ -8,14 +10,71 @@ ul,li{
 	list-style-type: none;
 }
 
+h1{
+	text-align: center;
+}
+
 .app{
 	border-style: solid;
 	border-width: 1px;
+	background-color: #ffebcd;
+	border-radius: 1px;
 
 }
 
 .wrapper{
-	text-align: center;
+	margin: 0 auto;
 	width: 40%;
 }
 
+.leftBox{
+	float:left;
+	width:30px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.rightBox{
+	float: left;
+	width:461px;
+	padding-left:5px;
+	padding-right: 5px;
+}
+
+.footerLeft{
+	float:left;
+	width:240px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.footerRight{
+	float:left;
+	width:245px;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+.clearfix{
+	clear:both;
+}
+
+.footer{
+	border-radius: 1px;
+	border-style: solid;
+	height:45px;
+
+}
+
+.list{
+	height: 45px;
+}
+
+.input{
+	height:45px;
+}
+input{
+	width:459px;
+	height:25px;
+}
